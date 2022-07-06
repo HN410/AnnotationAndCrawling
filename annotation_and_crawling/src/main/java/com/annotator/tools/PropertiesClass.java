@@ -18,7 +18,6 @@ import com.annotator.App;
 
 public class PropertiesClass {
 	private static final String address = "MainSettings.properties";
-	public static final String WANTED_FILE_KEY = "WantedFile";
 
 	public static void setProperties(Properties properties) {
 		FileOutputStream out = null;
